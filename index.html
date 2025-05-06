@@ -1,52 +1,83 @@
-# Programa simples sobre Churros
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churros do Pedrin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4a300;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 250px;
+            text-align: left;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #f4a300;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-def menu_principal():
-    print("Bem-vindo ao mundo dos Churros!")
-    print("Escolha uma das opções abaixo:")
-    print("1. Ingredientes para fazer churros")
-    print("2. Como fazer churros")
-    print("3. Curiosidades sobre churros")
-    print("4. Sair")
+<header>
+    <h1>Churros do Pedrin</h1>
+    <p>Os melhores churros da cidade!</p>
+</header>
+
+<div class="content">
+    <h2>Nosso Menu</h2>
     
-def ingredientes():
-    print("\nIngredientes necessários para fazer churros:")
-    print("- 1 xícara de água")
-    print("- 1/4 de xícara de manteiga")
-    print("- 1 xícara de farinha de trigo")
-    print("- 1 pitada de sal")
-    print("- Óleo para fritar")
-    print("- Açúcar e canela para polvilhar\n")
+    <div class="card">
+        <h2>Churros Tradicional</h2>
+        <p>Churros simples, crocantes por fora e macios por dentro. Polvilhados com açúcar e canela.</p>
+    </div>
 
-def como_fazer():
-    print("\nComo fazer churros:")
-    print("1. Em uma panela, leve a água e a manteiga ao fogo até ferver.")
-    print("2. Adicione a farinha e o sal e mexa até formar uma massa.")
-    print("3. Deixe a massa esfriar um pouco e coloque-a em um saco de confeitar.")
-    print("4. Modele os churros e frite-os em óleo quente até ficarem dourados.")
-    print("5. Retire da frigideira e polvilhe com açúcar e canela.\n")
+    <div class="card">
+        <h2>Churros Recheados</h2>
+        <p>Churros recheados com doce de leite, chocolate ou creme. Uma explosão de sabor!</p>
+    </div>
 
-def curiosidades():
-    print("\nCuriosidades sobre churros:")
-    print("- O churro tem origens na Espanha e Portugal, mas é muito popular em vários países.")
-    print("- Há diversas variações de churros, com recheios como doce de leite, chocolate e creme.")
-    print("- Em alguns lugares, os churros são comidos como café da manhã ou lanche da tarde.\n")
+    <div class="card">
+        <h2>Churros Gourmet</h2>
+        <p>Churros especiais com coberturas de Nutella, morango e até sorvete. Um verdadeiro luxo!</p>
+    </div>
+</div>
 
-def main():
-    while True:
-        menu_principal()
-        escolha = input("Digite o número da opção desejada: ")
-        
-        if escolha == "1":
-            ingredientes()
-        elif escolha == "2":
-            como_fazer()
-        elif escolha == "3":
-            curiosidades()
-        elif escolha == "4":
-            print("Saindo... Até mais!")
-            break
-        else:
-            print("Opção inválida! Tente novamente.\n")
+<footer>
+    <p>&copy; 2025 Churros do Pedrin. Todos os direitos reservados.</p>
+</footer>
 
-if __name__ == "__main__":
-    main()
+</body>
+</html>

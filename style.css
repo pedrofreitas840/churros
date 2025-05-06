@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churros do Pedrin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Churros do Pedrin</h1>
+    <p>Os melhores churros da cidade!</p>
+</header>
+
+<div class="content">
+    <h2>Nosso Menu</h2>
+    
+    <div class="card">
+        <h2>Churros Tradicional</h2>
+        <p>Churros simples, crocantes por fora e macios por dentro. Polvilhados com açúcar e canela.</p>
+    </div>
+
+    <div class="card">
+        <h2>Churros Recheados</h2>
+        <p>Churros recheados com doce de leite, chocolate ou creme. Uma explosão de sabor!</p>
+    </div>
+
+    <div class="card">
+        <h2>Churros Gourmet</h2>
+        <p>Churros especiais com coberturas de Nutella, morango e até sorvete. Um verdadeiro luxo!</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Churros do Pedrin. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
